@@ -17,6 +17,5 @@ resources:
     cpu: 50m
     memory: 256Mi
 
-
 configmap:
   data: "version: alpine"
