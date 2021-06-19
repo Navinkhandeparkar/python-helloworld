@@ -1,9 +1,6 @@
 namespace:
   name: helm-test
 
-configmap:
-  data: alpine
-
 service:
   port: 8111
   type: ClusterIP
