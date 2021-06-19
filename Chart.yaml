@@ -1,0 +1,9 @@
+apiVersion: v1
+name: nginx-deployment
+description: nginx-deployment
+keywords:
+- nginx
+version: 1.0.0
+maintainers:
+- name: knavin 
+  email: knavin@xyz.com

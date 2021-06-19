@@ -1,0 +1,25 @@
+namespace:
+  name: helm-test
+
+configmap:
+  data: alpine
+
+service:
+  port: 8111
+  type: ClusterIP
+ 
+image:
+  repository: reallynavin/python-helloworld 
+  tag: v1.0.0
+  imagePullPolicy: IfNotPresent
+
+replicaCount: 3
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 256Mi
+
+
+configmap:
+  data: "version: alpine"
